@@ -1,0 +1,42 @@
+﻿body {
+}
+
+#control_quantity_up, #control_quantity_down{
+    background:#dce6f5;
+    cursor:pointer;
+    padding: 10px 10px 10px 10px;
+    transition:0.5s;
+}
+
+#control_quantity_down{
+    margin-right:7px;
+}
+
+#control_quantity_up{
+    margin-left:7px;
+}
+
+#control_quantity_down:hover, #control_quantity_up:hover{
+    background:#99bced;
+    transition:0.5s;
+}
+
+
+
+.quantity_input{
+    width:60px;
+    text-align:center;
+}
+
+.name_valute{
+    position:absolute;
+    left:910px
+}
+
+.btn_basket {
+    margin:1px 1px 30px 1px;
+}
+
+#basket_catalog{
+    margin-right:40px;
+}

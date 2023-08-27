@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Info";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> @Model.Name </a></p>
+</div>
+
+<div id="card_detail_info"  class="main_content card">
+    <div class="row g-0">
+        <div class="col-md-12">
+            <div class="card-body">
+                <h5 class="card-title text-center">@Model?.Name</h5>
+                <p class="card-text"><b>Код детали: </b>@Model?.CodeDetail</p>
+                <p class="card-text"><b>Описание: </b>@Model?.Discription</p>
+                <p class="card-text"><b>Стоимость: </b>@Model?.Price Рублей</p>
+                <p class="card-text"><b>Способ получения товара: </b><small>Самовывоз: г.Екатеринбург, ул.Екатеринбургская, д.326</small></p>
+                <p class="card-text"><b>Часы работы: </b><small>ПН-ПТ: с 8:30 до 17:30</small></p>
+            </div>
+        </div>
+    </div>
+</div>

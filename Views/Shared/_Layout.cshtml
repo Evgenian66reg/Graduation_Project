@@ -1,0 +1,302 @@
+﻿@using AgricultDetailMarket.Models.Enum
+@using AgricultDetailMarket.Models
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AgricultDetailMarket</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ActiveSectionStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/CardStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/LeftNavbar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/main_style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/BuyStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/AccountStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/AdminStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ModalStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/OrderStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StringNavigationStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ModeratorStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/UserStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/CatalogStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/BasketStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AgricultDetailMarket.styles.css" asp-append-version="true" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav  class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AgricultDetailMarket</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Catalog" asp-action="ShowCategories"><span id="mnav_color">Каталог</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"><span id ="mnav_color">О компании</span></a>
+                        </li>
+                    </ul>
+                    @if(!User.Identity.IsAuthenticated){
+                        <ul id="right_group_btn" class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register"><span id="mnav_color">Регистрация</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login"><span id="mnav_color">Войти</span></a>
+                            </li>
+                        </ul>                    
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a id="admin_navbar" class="nav-link text-dark" asp-area="" asp-controller="AdminPanel" asp-action="AdminPanel"><span id="mnav_color">Админ панель</span></a>
+                            </li>
+                        </ul>
+                    }
+                    @if (User.IsInRole("Moderator"))
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a id="contact_admin" class="nav-link text-dark" asp-area="" asp-controller="Moderator" asp-action="ContactAdmin"><span id="mnav_color">Связаться с администратором</span></a>
+                            </li>
+                        </ul>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <ul id="right_group_btn" class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Basket" asp-action="GetItems"><span id="mnav_color">Корзина</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout"><span id="mnav_color">Выход</span></a>
+                            </li>
+                        </ul>
+                    }
+                </div>
+            </div>
+        </nav><br />
+        
+        <nav>
+            <div class="left_navbar">
+                <p class="left_navbar_title">Каталог товаров</p><hr />
+                <div>
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Аккумуляторы и Шины
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Accumulators">Аккумуляторы</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Tires">Сельхозшины</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Гидравлика
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Pumps">Насосы. Гидроаппаратура</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="HighPressureHoses">Рукава высокого давления</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Nozzles" asp-fragment="2_Hydraulics">Штуцера и комплектуещие</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти для грузовых<br />автомобилей. Прицепы
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Gaz53">ГАЗ-53</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Zil5103_Bull">ЗИЛ 5103 Бычок</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Zil130">ЗИЛ-130</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Paz3205">ПАЗ-3205</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Pts4">ПТС-4</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти для комбайнов
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="GrainCleaningCar">Зерноочистительные машины</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="HarvesterEnisey">Комбайн &laquoЕнисей&raquo</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="HarvesterNiva">Комбайн &laquoНива&raquo</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="HarvesterPalesse">Комбайн &laquoПалессе&raquo</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="OtherHarvesters">Комбайн &laquoДон-1500&raquo,<br /> &laquoДон-680&raquo, &laquoВектор&raquo, &laquoАККРОС&raquo</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к <br /> картофелеуборочной<br /> технике
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="PotatoHarvestingMachines">Запчасти к<br /> картофелеуборочной<br /> технике</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к<br /> кормоуборочной технике
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Kir">КИР-1.5</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="SilageHarvestingMachines">Силосоуборочная техника</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к<br /> почвообрабатывающей<br /> технике
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Harrow">Борона</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Cultivator">Культиватор</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Plough">Плуг</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к<br /> сенозаготовительной<br /> технике
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Rake">Грабли</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MowerKsf">Косилка брусковая КСФ</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MowerKps">Косилка КПС-5</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MowerKsd">Косилка КСД-2.0</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MowerLisichki">Косилка роторная Lisichki</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MowerKrn">Косилка роторная КРН-2.1</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Baler">Прессподборщик</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Stackers">Стогометатели</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к сеялке
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Seeder">Запчасти к сеялке</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Запчасти к тракторам
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="D75">Д-75</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Mtz1221">МТЗ-1221</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Mtz320">МТЗ-320</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="OthersMtz">МТЗ-80/82/892/952</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="T150_Smd60">Т-150, СМД-60</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="T16_25_40">Т-16/25/40</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Поршневая. Коленвалы.<br /> Вкладыши. Прокладки
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Liners">Вкладыши</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Crankshafts">Коленвалы</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="PistonsGroup">Поршневая группа</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="GasketsGbc">Прокладки ГБЦ</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Ремни. Сальники.<br /> Манжеты. Ремкомплекты
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Kits">Ремкомплекты</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Belts">Ремни</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="OilSeals">Сальники. Манжеты</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Топливная. Фильтры.<br /> Турбокомпрессоры.<br /> Стартеры
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Starters">Стартеры</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="FuelSystem">Топливная система</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Turbocompressors">Турбокомпрессоры</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="FuelAirFilters">Фильтры топливные,<br /> воздушные</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Цепи. Сегменты.<br /> Метизы. Электроды
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="MetalItems">Метизы</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Segments">Сегменты</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Chain">Цепи</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Electrodes">Электроды</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Агрострейчпленка.<br /> Силосная пленка.<br /> Шпагат
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="TwineFilms">Агрострейчпленка.<br /> Силосная пленка.<br /> Шпагат</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Электрооборудование.<br /> Оптика
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Headlights">Фары. Фонари.<br /> Оптические элементы</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="ElectricEquipment">Электрооборудование.<br /> Автолампы</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Горюче-смазочные<br /> материалы.<br /> Электролит
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Gsm">ГСМ</a></li>
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="Electrolyte">Электролит</a></li>
+                        </ul>
+                    </div><hr />
+                    <div class="dropdown">
+                        <button id="btn_drop" class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Инструменты
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a id="subbtn_drop" class="dropdown-item" asp-area="" asp-controller="Detail" asp-action="CarTools">Инструменты</a></li>
+                        </ul>
+                    </div><hr />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+   
+
+
+    <footer  id="footer_content" class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - AgricultDetailMarket - <a asp-area="" asp-controller="Home" asp-action="Privacy">О компании</a>
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Modal.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("pageScripts", required: false)
+</body>
+</html>

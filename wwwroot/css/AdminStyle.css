@@ -1,0 +1,181 @@
+﻿body {
+}
+
+#card_item_admin1, #card_item_admin2, #card_item_admin2_3{
+    box-shadow: 10px 5px 5px gray;
+}
+
+#card_item_admin1{
+    height:12rem;
+}
+
+#card_item_admin2 {    
+    height:auto;
+}
+
+
+#card_item_admin2_3 {
+    height: 10rem;
+}
+
+.add_user, .view_users, .delete_user, .update_user {
+    text-decoration: none;
+    border: 0.5px solid #1ea70f;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 5px gray;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.add_user {
+    color: aliceblue;
+    background-color: #1ea70f;
+}
+
+.view_users{
+    color:aliceblue;
+    background-color:#6b73b7;
+    margin-left:30px;
+    padding:10px 15px;
+}
+
+.view_users2 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    padding: 4px 20px;
+    transition: 0.5s;
+}
+
+.delete_user {
+    color: aliceblue;
+    background-color: #d30909;
+    margin: 20px;
+}
+
+.update_user {
+    color: aliceblue;
+    background-color: #138f80;
+    margin-left: 10px;
+}
+
+.add_user:hover {
+    border: 0.5px solid #1ea70f;
+    color: #1ea70f;
+    background-color:white;
+    transition:0.5s;
+}
+
+.delete_user:hover {
+    border: 0.5px solid #d30909;
+    color: #d30909;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.update_user:hover {
+    border: 0.5px solid #138f80;
+    color: #138f80;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.view_category {
+    position:absolute;
+    color: aliceblue;
+    width:300px;
+    background-color: #6b73b7;
+    padding: 5px 10px;
+    margin-top:100px;
+    text-decoration: none;
+    border-radius: 15px;
+    left:440px;
+    box-shadow: 10px 5px 5px gray;
+    transition: 0.5s;
+}
+
+.view_users:hover, .view_users2:hover, .view_category:hover {
+    border: 0.5px solid #6b73b7;
+    color: #6b73b7;
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+
+/*GetUsers*/
+
+#card_item_admin3 {
+    width:auto;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.delete_user2 {
+    color: white;
+    background-color: #d30909;
+    padding:0px 30px;
+    border: 0.5px solid #ae2525;
+    transition:0.5s;
+}
+
+.delete_user2:hover {
+    color: #d30909;
+    background-color: snow;
+    transition: 0.5s;
+}
+
+.update_user2 {
+    color: white;
+    background-color: #138f80;
+    padding:0px 30px;
+    border:0.5px solid #09525f;
+    transition: 0.5s;
+}
+
+.update_user2:hover{
+    color:#138f80;
+    background-color:snow;
+    transition:0.5s;
+}
+
+/*GetAllDetails*/
+
+#card_item_admin4 {
+    margin-left:75px;
+    width: 1500px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.delete_detail {
+    width:70px;
+    height:385px;
+    border-radius:15px;
+    color: white;
+    background-color: #d30909;
+    padding: 0px 30px;
+    border: 0.5px solid #ae2525;
+    transition: 0.5s;
+}
+
+.update_detail {
+    width:70px;
+    height:385px;
+    border-radius:15px;
+    color: white;
+    background-color: #138f80;
+    padding: 0px 30px;
+    border: 0.5px solid #09525f;
+    transition: 0.5s;
+}
+
+.delete_detail:hover {
+    color: #d30909;
+    background-color: snow;
+    transition: 0.5s;
+}
+
+.update_detail:hover {
+    color: #138f80;
+    background-color: snow;
+    transition: 0.5s;
+}

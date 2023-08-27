@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Косилка роторная КРН-2.1";
+}
+
+<div class="string_navigation">
+    <p><a class="item_navigation" asp-controller="Home" asp-action="Index"> Главная </a>>><a> Косилка роторная КРН-2.1 </a></p>
+</div>
+
+<div class="scroll_container">
+    <a id="scrollToTop"><img class="scroll_img" src="/img/arrow.png" /></a>
+</div>
+
+<h4 class="main_content">Косилка роторная КРН-2.1</h4>
+<hr />
+@if (Model.Count == 0)
+{
+    <h5 class="main_content">В данном разделе нет товаров :(</h5>
+}
+else
+{
+    <div class="main_content">
+        @foreach (var detail in Model)
+        {
+            if (detail.CategoryId == 27)
+            {
+                <div>
+                    <div id="main_card">
+                        <div id="item_card" class="card">
+                            <img id="icon_card" src="/img/item_img.png" alt="@detail.Name">
+                            <div class="card-body">
+                                <h5 class="card-title">@detail.Name</h5>
+                            </div>
+                            <ul id="price_items" class="list-group list-group-flush">
+                                <li class="list-group-item">Стоимость: @detail.Price рублей</li>
+                            </ul>
+                            <div class="card-body">
+                                <div class="btn_items">
+                                    <a asp-controller="DetailInfo" asp-action="InfoDetail" asp-route-id="@detail.Id" class="btn_info">Подробно</a>
+                                    <a asp-controller="Order" asp-action="CreateOrder" asp-route-id="@detail.Id" class="btn_addcart">Добавить в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+}
+
+@section pageScripts{
+    <script>
+        const btnScrollToTop = document.querySelector('#scrollToTop');
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
+}

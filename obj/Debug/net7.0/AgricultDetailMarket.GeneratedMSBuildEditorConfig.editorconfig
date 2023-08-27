@@ -1,0 +1,365 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgricultDetailMarket
+build_property.RootNamespace = AgricultDetailMarket
+build_property.ProjectDir = D:\Project Visual Studio\AgricultDetailMarket\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Project Visual Studio\AgricultDetailMarket
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Account/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/AdminPanel/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxBZG1pblBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/AdminPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Basket/GetItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEdldEl0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Buy/BuyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5XEJ1eU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Catalog/ShowCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xTaG93Q2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Category/GetCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0Q2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Category/SaveCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2F2ZUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/DetailInfo/InfoDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsSW5mb1xJbmZvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Accumulators.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEFjY3VtdWxhdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Baler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEJhbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Belts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEJlbHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/CarTools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENhclRvb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Chain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENoYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Crankshafts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENyYW5rc2hhZnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/CreateDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENyZWF0ZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Cultivator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEN1bHRpdmF0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/D75.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEQ3NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/ElectricEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVsZWN0cmljRXF1aXBtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Electrodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVsZWN0cm9kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Electrolyte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEVsZWN0cm9seXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/FuelAirFilters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEZ1ZWxBaXJGaWx0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/FuelSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEZ1ZWxTeXN0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/GasketsGbc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEdhc2tldHNHYmMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Gaz53.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEdhejUzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/GetAllDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEdldEFsbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/GrainCleaningCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEdyYWluQ2xlYW5pbmdDYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Gsm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEdzbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Harrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhhcnJvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/HarvesterEnisey.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhhcnZlc3RlckVuaXNleS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/HarvesterNiva.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhhcnZlc3Rlck5pdmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/HarvesterPalesse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhhcnZlc3RlclBhbGVzc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Headlights.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhlYWRsaWdodHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/HighPressureHoses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEhpZ2hQcmVzc3VyZUhvc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Kir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEtpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Kits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEtpdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Liners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXExpbmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MetalItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1ldGFsSXRlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MowerKps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1vd2VyS3BzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MowerKrn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1vd2VyS3JuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MowerKsd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1vd2VyS3NkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MowerKsf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1vd2VyS3NmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/MowerLisichki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE1vd2VyTGlzaWNoa2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Mtz1221.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE10ejEyMjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Mtz320.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE10ejMyMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Nozzles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE5venpsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/OilSeals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE9pbFNlYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/OtherHarvesters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE90aGVySGFydmVzdGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/OthersMtz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXE90aGVyc010ei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Paz3205.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFBhejMyMDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/PistonsGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFBpc3RvbnNHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Plough.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFBsb3VnaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/PotatoHarvestingMachines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFBvdGF0b0hhcnZlc3RpbmdNYWNoaW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Pts4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFB0czQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Pumps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFB1bXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Rake.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFJha2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/SaveDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFNhdmVEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Seeder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFNlZWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Segments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFNlZ21lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/SilageHarvestingMachines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFNpbGFnZUhhcnZlc3RpbmdNYWNoaW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Stackers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFN0YWNrZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Starters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFN0YXJ0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/T150_Smd60.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFQxNTBfU21kNjAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/T16_25_40.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFQxNl8yNV80MC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Tires.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFRpcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Turbocompressors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFR1cmJvY29tcHJlc3NvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/TwineFilms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFR3aW5lRmlsbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Zil130.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFppbDEzMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Detail/Zil5103_Bull.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXFppbDUxMDNfQnVsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Home/ErrorView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Moderator/ContactAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdG9yXENvbnRhY3RBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Order/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/User/GetUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/User/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project Visual Studio/AgricultDetailMarket/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gbztic8180

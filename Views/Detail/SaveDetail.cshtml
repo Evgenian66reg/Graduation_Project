@@ -1,0 +1,52 @@
+﻿@model AgricultDetailMarket.Models.ViewModels.DetailViewModel
+@{
+    ViewBag.Title = "Изменение детали";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> </a></p>
+</div>
+
+<civ class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center text-black">Изменение детали</h3>
+                        </div>
+                        <div id="form_account" class="card-body">
+                            <form asp-controller="Detail" asp-action="SaveDetail" method="post" autocomplete="on">
+                                <div asp-validation-summary="All" class="text-danger text-center"></div>
+                                <div>
+                                    <input id="form_input_account" asp-for="Id" type="text" placeholder="Введите id детали" class="text-center" />
+                                </div>
+                                <div>
+                                    <input id="form_input_account" asp-for="Name" type="text" placeholder="Введите название детали" class="text-center" />
+                                </div>
+                                <div>
+                                    <textarea id="form_input_account2" asp-for="Discription" type="text" placeholder="Введите описание детали" class="text-center" ></textarea>
+                                </div>
+                                <div>
+                                    <input id="form_input_account" asp-for="CodeDetail" type="text" placeholder="Введите код детали" class="text-center" />
+                                </div>
+                                <div>
+                                    <input id="form_input_account" asp-for="Price" type="text" placeholder="Введите цену детали" class="text-center" />
+                                </div>
+                                <div>
+                                    <input id="form_input_account" asp-for="CategoryId" type="text" placeholder="Введите категорию детали" class="text-center" />
+                                </div>
+                                <div>
+                                    <h2 class="text-center"><a id="btn_other_form" asp-controller="Detail" asp-action="GetAllDetails">К списку категорий</a></h2>
+                                </div>
+                                <button id="btn_action_form" type="submit" class="float-right">Изменить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</civ>

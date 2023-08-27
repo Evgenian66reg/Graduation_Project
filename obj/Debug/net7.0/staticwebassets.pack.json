@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AgricultDetailMarket.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AgricultDetailMarket.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\AccountStyle.css",
+      "PackagePath": "staticwebassets\\css\\AccountStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\ActiveSectionStyle.css",
+      "PackagePath": "staticwebassets\\css\\ActiveSectionStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\AdminStyle.css",
+      "PackagePath": "staticwebassets\\css\\AdminStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\BasketStyle.css",
+      "PackagePath": "staticwebassets\\css\\BasketStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\BuyStyle.css",
+      "PackagePath": "staticwebassets\\css\\BuyStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\CardStyle.css",
+      "PackagePath": "staticwebassets\\css\\CardStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\CatalogStyle.css",
+      "PackagePath": "staticwebassets\\css\\CatalogStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\LeftNavbar.css",
+      "PackagePath": "staticwebassets\\css\\LeftNavbar.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\ModalStyle.css",
+      "PackagePath": "staticwebassets\\css\\ModalStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\ModeratorStyle.css",
+      "PackagePath": "staticwebassets\\css\\ModeratorStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\OrderStyle.css",
+      "PackagePath": "staticwebassets\\css\\OrderStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\StringNavigationStyle.css",
+      "PackagePath": "staticwebassets\\css\\StringNavigationStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\UserStyle.css",
+      "PackagePath": "staticwebassets\\css\\UserStyle.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\main_style.css",
+      "PackagePath": "staticwebassets\\css\\main_style.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\akkumulators.jpg",
+      "PackagePath": "staticwebassets\\img\\akkumulators.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\arrow.png",
+      "PackagePath": "staticwebassets\\img\\arrow.png"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\arrow_up.png",
+      "PackagePath": "staticwebassets\\img\\arrow_up.png"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\baler.jpg",
+      "PackagePath": "staticwebassets\\img\\baler.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\cultivator.jpg",
+      "PackagePath": "staticwebassets\\img\\cultivator.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\d75.jpg",
+      "PackagePath": "staticwebassets\\img\\d75.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\gaz53.jpg",
+      "PackagePath": "staticwebassets\\img\\gaz53.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\graincleaningmachines.jpg",
+      "PackagePath": "staticwebassets\\img\\graincleaningmachines.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\harrow.jpg",
+      "PackagePath": "staticwebassets\\img\\harrow.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\harvesterenisey.jpg",
+      "PackagePath": "staticwebassets\\img\\harvesterenisey.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\harvesterniva.jpg",
+      "PackagePath": "staticwebassets\\img\\harvesterniva.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\harvesterpalesse.jpg",
+      "PackagePath": "staticwebassets\\img\\harvesterpalesse.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\highpressurehoses.jpg",
+      "PackagePath": "staticwebassets\\img\\highpressurehoses.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\item_img.png",
+      "PackagePath": "staticwebassets\\img\\item_img.png"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\kir.jpg",
+      "PackagePath": "staticwebassets\\img\\kir.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mowerkps.jpg",
+      "PackagePath": "staticwebassets\\img\\mowerkps.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mowerkrn.jpg",
+      "PackagePath": "staticwebassets\\img\\mowerkrn.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mowerksd.jpg",
+      "PackagePath": "staticwebassets\\img\\mowerksd.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mowerksf.jpg",
+      "PackagePath": "staticwebassets\\img\\mowerksf.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mowerlisichki.jpg",
+      "PackagePath": "staticwebassets\\img\\mowerlisichki.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mtz1221.jpg",
+      "PackagePath": "staticwebassets\\img\\mtz1221.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\mtz320.jpg",
+      "PackagePath": "staticwebassets\\img\\mtz320.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\nozzles.jpeg",
+      "PackagePath": "staticwebassets\\img\\nozzles.jpeg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\otherharvesters.jpg",
+      "PackagePath": "staticwebassets\\img\\otherharvesters.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\othersmtz.jpg",
+      "PackagePath": "staticwebassets\\img\\othersmtz.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\paz3205.jpg",
+      "PackagePath": "staticwebassets\\img\\paz3205.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\plough.jpg",
+      "PackagePath": "staticwebassets\\img\\plough.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\pomps.jpg",
+      "PackagePath": "staticwebassets\\img\\pomps.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\potatoharvestingmachines.png",
+      "PackagePath": "staticwebassets\\img\\potatoharvestingmachines.png"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\pts4.jpg",
+      "PackagePath": "staticwebassets\\img\\pts4.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\rake.jpg",
+      "PackagePath": "staticwebassets\\img\\rake.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\seeder.jpg",
+      "PackagePath": "staticwebassets\\img\\seeder.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\silageharvestingmachines.png",
+      "PackagePath": "staticwebassets\\img\\silageharvestingmachines.png"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\stackers.jpg",
+      "PackagePath": "staticwebassets\\img\\stackers.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\t150_smd60.jpg",
+      "PackagePath": "staticwebassets\\img\\t150_smd60.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\t16_25_40.jpg",
+      "PackagePath": "staticwebassets\\img\\t16_25_40.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\tires.jpg",
+      "PackagePath": "staticwebassets\\img\\tires.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\zil130.jpg",
+      "PackagePath": "staticwebassets\\img\\zil130.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\img\\zil5301_bull.jpg",
+      "PackagePath": "staticwebassets\\img\\zil5301_bull.jpg"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Project Visual Studio\\AgricultDetailMarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AgricultDetailMarket.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AgricultDetailMarket.props",
+      "PackagePath": "build\\AgricultDetailMarket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AgricultDetailMarket.props",
+      "PackagePath": "buildMultiTargeting\\AgricultDetailMarket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AgricultDetailMarket.props",
+      "PackagePath": "buildTransitive\\AgricultDetailMarket.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

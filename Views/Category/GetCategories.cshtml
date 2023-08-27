@@ -1,0 +1,62 @@
+﻿@model List<AgricultDetailMarket.Models.Category>
+@{
+    ViewBag.Title = "Запчасти";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> </a></p>
+</div>
+
+<div class="scroll_container">
+    <a id="scrollToTop"><img class="scroll_img" src="/img/arrow.png" /></a>
+</div>
+
+@if (Model == null || Model.Count == 0)
+{
+    <div class="card main_content">
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Список категорий пуст :(</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}else{
+<div id="card_item_admin3" class="main_content card col-xl">
+    <table class="table table-striped">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Название</th>
+                <th scope="col">#</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                    <td>
+                        <form asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id" method="post">
+                            <button class="delete_user2" type="submit">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+}
+
+@section pageScripts{
+    <script>
+        const btnScrollToTop = document.querySelector('#scrollToTop');
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
+}   

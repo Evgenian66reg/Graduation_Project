@@ -1,0 +1,42 @@
+﻿@using AgricultDetailMarket.Models.Enum;
+@model AgricultDetailMarket.Models.ViewModels.UserViewModel
+
+@{
+    ViewBag.Title = "Изменение пользователя";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> </a></p>
+</div>
+
+<div >
+    <div id="card_user" class="card main_content " style="margin-bottom:300px;">
+        <div class="card-header">
+            <h3>Изменение пользователя</h3>
+        </div>
+        <div id="form_account" class=" card-body" >
+            <form asp-controller="User" asp-action="UpdateUser" method="post">
+                <input asp-for="Id" hidden />
+                <div asp-validation-summary="All" class="text-danger text-center"></div>
+                <div >
+                    <label asp-for="Email"></label>
+                    <input id="form_input_account" asp-for="Email" type="email" class="" autocomplete="on" placeholder="Введите email пользователя">
+                </div>
+                <div >
+                    <label asp-for="Password"></label>
+                    <input id="form_input_account" asp-for="Password" type="password" autocomplete="on" placeholder="Введите пароль пользователя" />
+                </div>
+                <div >
+                    <label asp-for="Role"></label>
+                    <select id="form_input_account" asp-for="Role" asp-items="Html.GetEnumSelectList<Role>()" class="select_role" aria-label="Выберете роль">Выберете роль</select>
+                </div>
+                <div style="margin-top:100px;">
+                    <button id="btn_action_form" type="submit">Изменить</button>
+                    <button id="btn_action_form" asp-controller="User" asp-action="GetUsers" style="margin-left:120px;">Пользователи</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+                    
+

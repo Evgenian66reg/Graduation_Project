@@ -1,0 +1,52 @@
+﻿body {
+    overflow-x: hidden;
+    font-family: 'Cuprum', sans-serif;
+}
+
+
+.left_navbar {
+    background: #5569a1;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: auto;
+    left: 0;
+    position: absolute;
+    padding-left: 25px;
+}
+
+#btn_drop {
+    font-size: 0.75rem;
+    color: snow;
+    border: none;
+    outline: none;
+    background: #5569a1;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+#btn_drop:hover{
+    color:#ace2a2;
+}
+
+#btn_drop:focus{
+    color:#ace2a2;
+}
+
+#subbtn_drop{
+    font-size:0.75rem;
+    color:#5569a1;
+}
+
+#subbtn_drop:hover {
+    background: #5569a1;
+    color: snow;
+    font-style: italic;
+}
+
+.left_navbar_title{
+    text-align:center;
+    padding-top: 1rem;
+}
+
+
+

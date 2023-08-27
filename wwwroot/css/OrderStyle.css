@@ -1,0 +1,26 @@
+﻿body {
+}
+
+#input_order{
+    margin-left: 180px;
+}
+
+#label_order1 {
+    margin-left: 80px;
+}
+
+#label_order2{
+    margin-left:140px;
+}
+
+#btn_order{
+    margin-top:70px;
+}
+
+#delivery{
+    margin-top:50px;
+}
+
+#quantity_box{
+    margin: 40px 50px 40px 310px;
+}

@@ -1,0 +1,48 @@
+﻿body {
+}
+
+.img_catalog {
+    width: 202px;
+    height: 202px;
+    transition: 0.5s;
+}
+
+    .img_catalog:hover {
+        transition: 0.8s;
+        border:1px dotted;
+        border-radius:15px;
+    }
+
+.container_ccatalog{
+    margin-left:10px;
+}
+
+.link_catalog{
+    text-decoration:none;
+    padding-right:300px;
+    text-align:left;
+}
+
+.scroll_container{
+    margin-top:500px;
+    margin-left:1400px;
+    position:fixed;
+    z-index:999;
+}
+
+.scroll_img{
+    width:50%;
+    cursor:pointer;
+}
+
+.scroll_container2 {
+    margin-top: 500px;
+    margin-left: 1290px;
+    position: fixed;
+    z-index: 999;
+}
+
+.scroll_img2 {
+    width: 30%;
+    cursor: pointer;
+}

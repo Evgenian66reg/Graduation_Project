@@ -1,0 +1,86 @@
+﻿@model AgricultDetailMarket.Models.ViewModels.OrderViewModel
+
+@{
+    ViewBag.Title = "Оформление покупки";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div>
+        <div id="card_item_admin2" class="card main_content">
+            <div class="card-header">
+                <h4 class="text-center">Форма создания заказа</h4>
+            </div>
+            <div class="card-body">
+                <form asp-controller="Order" asp-action="CreateOrder" method="post">
+                    <input asp-for="EmailUser" hidden />
+                    <input asp-for="DetailId" hidden />
+                    <input asp-for="DateCreated" hidden />
+                    <div asp-validation-summary="All" style="font-size:23px; font-family:Impact, serif" class="text-danger text-center"></div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label id="label_order1" asp-for="@Model.FirstName"></label>
+                            <input id="input_order" type="text" class="form-control" asp-for="@Model.FirstName">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label id="label_order2" asp-for="@Model.LastName"></label>
+                            <input id="input_order" type="text" class="form-control" asp-for="@Model.LastName">
+                        </div>
+                        <div id="quantity_box" class="form-group col-md-4">
+                            <label asp-for="@Model.Quantity"></label>
+                            <span id="control_quantity_down" class="down">-</span>
+                            <input asp-for="@Model.Quantity" class="quantity_input" type="text" value="@Model.Quantity" />
+                            <span id="control_quantity_up" class="up">+</span>
+                        </div>
+                    </div>
+                    <div id="delivery">
+                        <div class="main_content">
+                            <p><b>Способ получения товара</b></p>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Самовывоз
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block float-right">
+                        <button id="btn_order" class="add_user" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+}
+else
+{
+    <div>
+        <div id="card_item_admin2" class="card main_content">
+            <div class="card-body">
+                <p>Пожалуйста пройдите авторизацию для совершения покупок!</p>
+            </div>
+        </div>
+    </div>
+}
+
+@section pageScripts
+    {
+    <script>
+        $(document).ready(function () {
+            $('.down').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.up').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            })
+        });
+    </script>
+    }

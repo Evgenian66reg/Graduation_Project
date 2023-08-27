@@ -1,0 +1,82 @@
+﻿@model List<AgricultDetailMarket.Models.ViewModels.BasketOrderViewModel>
+
+@{
+    ViewBag.Title = "Корзина";
+}
+
+
+@if (Model == null || Model.Count == 0)
+{
+
+    <div class="card main_content col-md-12">
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Список заказов пуст :(</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div id="card_item_admin3" class="main_content card col-xl">
+        <table id="basketTable" class="table table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th scope="col">Название</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Общая цена</th>
+                    <th scope="col">#</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+
+                    
+                    <tr>
+                        <td>@item.DetailName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.DetailPrice</td>
+                        <td class="sum_total">@(item.DetailPrice * item.Quantity)</td>
+                        <td>
+                            <form asp-controller="Order" asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                <button class="delete_user2" type="submit">Удалить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-end"><b>Итого:</b></td>
+                    <td class="sum_result"></td>
+                    <td class="name_valute">рублей</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="btn_basket">
+            <a id="basket_catalog" class="add_user" asp-controller="Catalog" asp-action="ShowCategories">Каталог товаров</a>
+            <a class="add_user" asp-controller="Buy" asp-action="BuyOrder">Купить</a>
+        </div>
+    </div>
+
+    
+    
+}
+
+    
+@section pageScripts{
+    <script>
+        const sumCells = document.querySelectorAll('.sum_total');
+        let sum = 0;
+        for(let i=0; i<sumCells.length; i++){
+            sum = sum + (+sumCells[i].textContent);
+        }
+        document.querySelector('.sum_result').textContent = sum;
+    </script>
+}                              

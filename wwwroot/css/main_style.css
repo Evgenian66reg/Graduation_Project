@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.main_content{
+    margin-left: 100px;
+    text-align:center;
+}
+
+#footer_content{
+    margin-left: 80px;
+    bottom:-93rem;
+}

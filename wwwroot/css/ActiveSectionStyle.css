@@ -1,0 +1,37 @@
+﻿body {
+}
+
+.main_section {
+    background-color: black;
+    padding: 10px 72px 10px 25px;
+    font-size: 21px;
+    text-decoration: none;
+    background-color: rgb(66, 4, 4);
+}
+
+.main_section_li{
+    list-style-type:none;
+}
+
+
+.msection_color {
+    color: rgb(242, 245, 184);
+}
+
+.subpage {
+    font-size: 21px;
+    text-decoration: none;
+    list-style-type:disc;
+}
+
+.subpage:hover{
+    font-style:italic;
+    width:auto;
+    cursor:pointer;
+}
+
+.sp_color {
+    color:white;
+}
+
+

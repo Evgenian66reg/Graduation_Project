@@ -1,0 +1,40 @@
+﻿@model AgricultDetailMarket.Models.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = "Добавление категории";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> </a></p>
+</div>
+
+<civ class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center text-black">Добавление категории</h3>
+                        </div>
+                        <div id="form_account" class="card-body">
+                            <form asp-controller="Category" asp-action="CreateCategory" method="post" autocomplete="on">
+                                <div asp-validation-summary="All" class="text-danger text-center"></div>
+                                <div>
+                                    <input id="form_input_account" asp-for="Id" type="text" placeholder="Введите id категории" class="text-center" />
+                                </div>
+                                <div>
+                                    <input id="form_input_account" asp-for="Name" type="text" placeholder="Введите название категории" class="text-center" />
+                                </div>
+                                <div>
+                                    <h2 class="text-center"><a id="btn_other_form" asp-controller="Category" asp-action="GetCategories">К списку категорий</a></h2>
+                                </div>
+                                <button id="btn_action_form" type="submit" class="float-right">Добавить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</civ>

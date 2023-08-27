@@ -1,0 +1,69 @@
+﻿@model List<AgricultDetailMarket.Models.Detail>
+@{
+    ViewBag.Title = "Запчасти";
+}
+
+<div class="string_navigation">
+    <p><a id="info_back_detail" class="item_navigation" onclick="history.back();return false;"> Назад </a>>><a> </a></p>
+</div>
+
+<div class="scroll_container2">
+    <a id="scrollToTop"><img class="scroll_img2" src="/img/arrow.png" /></a>
+</div>
+
+@if (Model == null || Model.Count == 0)
+{
+    <div class="card main_content">
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Список деталей пуст :(</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}else{
+<div id="card_item_admin4" class="main_content card col-xl">
+    <table class="table table-striped">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Название</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Код</th>
+                <th scope="col">Цена</th>
+                <th scope="col">Категория</th>
+                <th scope="col">#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detail in Model)
+            {
+                <tr>
+                    <td>@detail.Id</td>
+                    <td>@detail.Name</td>
+                    <td>@detail.Discription</td>
+                    <td>@detail.CodeDetail</td>
+                    <td>@detail.Price</td>
+                    <td>@detail.CategoryId</td>
+                    <td>
+                        <form asp-controller="Detail" asp-action="Delete" asp-route-id="@detail.Id" method="post">
+                            <button class="delete_detail" type="submit">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>        
+}
+
+
+@section pageScripts{
+    <script>
+        const btnScrollToTop = document.querySelector('#scrollToTop');
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
+} 

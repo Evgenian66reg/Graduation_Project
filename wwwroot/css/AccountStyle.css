@@ -1,0 +1,63 @@
+﻿body {
+}
+
+#form_input_account{
+    width:95%;
+    height: 55px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+#form_input_account2 {
+    width: 95%;
+    height: 55px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height:150px;
+}
+
+#btn_other_form {
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: #227444;
+    border: 1px solid #235315;
+    border-radius: 10px;
+    padding: 10px 20px;
+    bottom: 29px;
+    right: 30px;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#btn_other_form:hover{
+        color: #227444;
+        background-color: white;
+        transition: 0.3s;
+}
+
+#btn_action_form {
+    font-size: 1.2rem;
+    background-color: #227444;
+    border: 1px solid #235315;
+    border-radius: 10px;
+    padding: 5px 150px;
+    right: 30px;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 10px 5px 5px gray;
+}
+
+    #btn_action_form:hover {
+        color: #227444;
+        background-color: white;
+        transition: 0.3s;
+    }
+
+#form_account {
+    box-shadow: 15px 15px 15px gray;
+}
+
+
+

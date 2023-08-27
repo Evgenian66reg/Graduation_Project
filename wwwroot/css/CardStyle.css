@@ -1,0 +1,94 @@
+﻿body {
+    background-color:#d9dadb;
+}
+
+#item_card {
+    width: 17rem;
+    height: 21rem;
+    float: left;
+    margin: 15px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#icon_card{
+    align-items:center;
+    width:40%;
+    padding-left:2rem;
+    margin-left:4rem;
+}
+
+.price_info{
+    position:absolute;
+    left:30%;
+    bottom:30px;   
+}
+
+.btn_items{
+    position:absolute;
+    bottom: 40px;
+}
+
+
+#price_items {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+}
+
+.btn_info{
+    background-color:#5569a1;
+    padding:20px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.btn_addcart {
+    background-color: #22862a;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn_info:hover {
+    padding:17px 37px 17px 37px;
+    color: #5569a1;
+    background-color: white;
+    border: dashed;
+    transition: 0.2s;
+    border-radius:15px;
+}
+
+.btn_addcart:hover {
+    color: #22862a;
+    background-color: white;
+    border: dashed #22862a;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+#card_detail_info {
+    box-shadow: 10px 5px 5px gray;
+}
+
+.item_admin {
+    position: absolute;
+    bottom: 180px;
+}
+
+.item_admin_delete {
+    text-decoration: none;
+    color:#e51616;
+}
+
+.item_admin_save {
+    text-decoration: none;
+    color: #19ca42;
+
+}
+
+.item_admin_delete:hover, .item_admin_save:hover{
+    color:#bd16e5;
+}
+    

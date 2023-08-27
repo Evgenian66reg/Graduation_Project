@@ -1,0 +1,43 @@
+﻿@model AgricultDetailMarket.Models.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = "Админ панель";
+}
+
+<div class="main_content">
+
+    <card id="card_item_admin2" class="card">
+        <div class="card-header">
+            <h4>Операции для работы с пользователями</h4>
+        </div>
+        <div class="card-body">
+            <a class="delete_user" asp-controller="User" asp-action="DeleteUser">Удалить пользователя</a>
+            <a class="update_user" asp-controller="User" asp-action="UpdateUser">Изменить пользователя</a>
+            <a class="view_users" asp-controller="User" asp-action="GetUsers">Показать пользователей</a>
+        </div>
+    </card><br />
+
+    <card id="card_item_admin2" class="card">
+        <div class="card-header">
+            <h4>Операции для работы с деталями</h4>
+        </div>
+        <div class="card-body">
+            <a class="add_user" asp-controller="Detail" asp-action="CreateDetail">Добавить деталь</a>
+            <a class="delete_user" asp-controller="Detail" asp-action="Delete">Удалить деталь</a>
+            <a class="update_user" asp-controller="Detail" asp-action="SaveDetail">Изменить деталь</a>
+            <a class="view_users" asp-controller="Detail" asp-action="GetAllDetails">Показать детали</a>
+        </div>
+    </card><br />
+
+    <card id="card_item_admin2_3" class="card">
+        <div class="card-header">
+            <h4>Операции для работы с категориями деталей</h4>
+        </div>
+        <div class="card-body">
+            <a class="add_user" asp-controller="Category" asp-action="CreateCategory">Добавить категорию</a>
+            <a class="delete_user" asp-controller="Category" asp-action="Delete">Удалить категорию</a>
+            <a class="update_user" asp-controller="Category" asp-action="SaveCategory">Изменить категорию</a>
+            <a class="view_category" asp-controller="Category" asp-action="GetCategories">Показать категории</a>
+        </div>
+    </card>
+</div>
+

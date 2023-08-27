@@ -1,0 +1,32 @@
+﻿body {
+}
+
+#form_input {
+    outline: none;
+    width: 650px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid #5569a1;
+}
+
+#form_label{
+    margin-right:23px;
+}
+
+#form_btn {
+    border-radius: 7px;
+    width: 15rem;
+    margin-left: 3rem;
+    color: aliceblue;
+    background-color: #5569a1
+}
+
+#form_btn:hover{
+    color:#5569a1;
+    background-color:white;
+    border:dashed;
+}
+
+#form_btn:active{
+    background-color:#d9cdcd;
+}
